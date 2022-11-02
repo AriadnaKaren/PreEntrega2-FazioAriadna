@@ -12,14 +12,16 @@ header, h1, h2{
 }
 
 body{
-    background-color: #FFD9DA;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
     font-family: 'Hind', sans-serif;
     font-weight:600;
 }
 
 /*CSS HEADER */
-header{
-    background-color: #30343f;
+header, footer{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(146, 124, 124, 0.4) 0%, rgba(0,0,0,0.40) 120%) #7b7b7b;
+    background-blend-mode: multiply,multiply;
+
 }
 
 .nav-text li a{
@@ -55,6 +57,8 @@ header{
 .img-logo{
     width: 300px;
 }
+
+
 /*FIN CSS HEADER */
 
 
@@ -76,7 +80,6 @@ header{
 /*FIN H1 animacion*/
 
 .main-content{
-    background-color: #FFD9DA;
     margin: 2%;
 }
 
@@ -85,27 +88,21 @@ header{
     margin-bottom: 5%;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-#content-wrap {
-    padding-bottom: 2.5rem; 
-}
-
 .first-p{
     margin-top: 2%;
 }
 .aboutme-info{
     border-radius: 5%;
-    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px 
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+    padding-top: 5%;
+    
 }
 
 .img-home{
     width: 80%;
     margin: 8%;
     border-radius: 20%;
-    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px 
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
 }
 
 
@@ -140,6 +137,11 @@ header{
     float: right;
     border: solid rgb(243, 236, 236);
 }
+.pixel-chibis{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
 
 .img-order{
     display: flex;
@@ -152,16 +154,21 @@ header{
     margin: 8px;
 }
 
-.terminos-cont{
-    margin: 5%;
-    padding: 5%;
+.tos-cont h4, h2{
+    text-align: center;
 }
 
-.coso-rosa{
-    width: 150px;
-    height: 40px;
-    background-color: #FFD9DA;
-    border-radius: 20px;
+.tos-list {
+    list-style: none;
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    
+}
+.tos-cont h2{
+    background-color: #fff;
+    border-style: dashed;
+    border-color: #FFD9DA;
 }
 
 /* CSS Del Boton */
@@ -237,8 +244,8 @@ button {
 
 /*Footer */
 footer{
-    background-color: #30343f;
     color: #FFD9DA;
+    padding-top: 2%;
 }
 footer p{
     margin: 0;
