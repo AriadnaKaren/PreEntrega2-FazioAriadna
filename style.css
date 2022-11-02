@@ -18,11 +18,17 @@ body{
 
 /*CSS HEADER */
 header{
-    display: flex;
     background-color: #30343f;
-    padding: 2%;
-    justify-content: center;
 }
+
+.nav-text li a{
+    color: #FFD9DA;
+}
+
+.navbar-toggler{
+    background-color: #FFD9DA ;
+}
+
 .menu-list{
     background-color: #ea638c;
     display: flex;
