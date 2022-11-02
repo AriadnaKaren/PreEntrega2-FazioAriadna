@@ -14,6 +14,7 @@ header, h1, h2{
 body{
     background-color: #FFD9DA;
     font-family: 'Hind', sans-serif;
+    font-weight:600;
 }
 
 /*CSS HEADER */
@@ -56,15 +57,58 @@ header{
 }
 /*FIN CSS HEADER */
 
+
+/* H1 animacion */
+.typewriter h1 {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    }
+ @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+
+/*FIN H1 animacion*/
+
 .main-content{
     background-color: #FFD9DA;
-    padding: 6%;
-    margin: 5%;
+    margin: 2%;
 }
 
-.about-me{
-    text-align: left;
+.container{
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem; 
+}
+
+.first-p{
+    margin-top: 2%;
+}
+.aboutme-info{
+    border-radius: 5%;
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px 
+}
+
+.img-home{
+    width: 80%;
+    margin: 8%;
+    border-radius: 20%;
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px 
+}
+
+
 .main-content h1{
     font-size: 50px;
     text-transform: uppercase;
@@ -97,13 +141,6 @@ header{
     border: solid rgb(243, 236, 236);
 }
 
-.img-home{
-    max-width: 300px;
-    margin: 8px;
-    float: left;
-    border-radius: 50%;
-}
-
 .img-order{
     display: flex;
     justify-content: center;
@@ -128,32 +165,74 @@ header{
 }
 
 /* CSS Del Boton */
-.button-comm,
-a.button-comm {
-    display: inline-block;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #000;
-    background: #ea638c;
-    border-radius: 8px;
-    -webkit-transition: 300ms;
-    -o-transition: 300ms;
-    transition: 300ms;
+.custom-btn a{
     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+button {
+    margin: 20px;
+}
+.custom-btn {
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.btn-11 {
     border: none;
-    font-size: 1rem;
+    background: rgb(251,33,117);
+    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+    color: #fff;
+    overflow: hidden;
 }
-.button-comm:hover {
-    background: #FFD9DA;
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
 }
-.button-cont{
-    padding: 5% 50%;
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
 }
-.button-cont p{
-    padding: 0;
-    
+.btn-11:hover{
+    opacity: .7;
 }
+.btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
 /* Fin CSS Del Boton */
 
 /*Footer */
@@ -161,6 +240,10 @@ footer{
     background-color: #30343f;
     color: #FFD9DA;
 }
+footer p{
+    margin: 0;
+}
+
 .socials {
     display: flex;
     justify-content: center;
@@ -174,3 +257,4 @@ footer img{
     max-width: 30px;
     max-height: 30px;
 }
+
