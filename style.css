@@ -242,6 +242,20 @@ button {
 
 /* Fin CSS Del Boton */
 
+/*Style portfolio*/
+.port-img{
+    width: 80%;
+    margin: 8%;
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+}
+
+.port-img:hover{
+    transform: scale(1.5, 1.5);
+    transition-duration: 0.5s;
+}
+
+
+
 /*Footer */
 footer{
     color: #FFD9DA;
