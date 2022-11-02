@@ -25,6 +25,7 @@ header{
     color: #FFD9DA;
 }
 
+
 .navbar-toggler{
     background-color: #FFD9DA ;
 }
@@ -158,6 +159,7 @@ a.button-comm {
 /*Footer */
 footer{
     background-color: #30343f;
+    color: #FFD9DA;
 }
 .socials {
     display: flex;
