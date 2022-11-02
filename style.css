@@ -122,12 +122,7 @@ header, footer{
     text-align: center;
 }
 
-.comm-cont article{
-    background-color: #FFD9DA;
-    padding: 6%;
-    margin: 5%;
-    margin-bottom: 10px;
-}
+
 .comm-cont h2{
     text-transform: uppercase;
 }
@@ -254,6 +249,33 @@ button {
     transition-duration: 0.5s;
 }
 
+/*Comm style*/
+
+.comm-cont h2{
+    background-color: #fff;
+    border-style: dashed;
+    border-color: #FFD9DA;
+}
+
+.comm-cont h3{
+    text-transform: uppercase;
+    font-weight:600;
+    text-align: center;
+}
+.comm-cont img{
+    max-width: 350px;
+    max-height: 500px;
+    border-style: solid 2px;
+    border-color: #fff;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.comm-cont{
+    box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+}
 
 
 /*Footer */
