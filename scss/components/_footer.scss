@@ -1,0 +1,23 @@
+@import '../base/variables';
+
+footer{
+    color: #FFD9DA;
+    padding-top: 2%;
+}
+footer p{
+    margin: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer img{
+    max-width: 30px;
+    max-height: 30px;
+}

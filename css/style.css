@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind&family=Poppins&display=swap");
+header, footer {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(146, 124, 124, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #7b7b7b;
+  background-blend-mode: multiply, multiply;
+}
+
+.nav-text li a {
+  color: #FFD9DA;
+}
+
+.navbar-toggler {
+  background-color: #FFD9DA;
+}
+
+.menu-list {
+  background-color: #ea638c;
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  list-style: none;
+  margin: 0 20% 20%;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.menu-list li {
+  float: left;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 3px;
+}
+
+.img-logo {
+  width: 300px;
+}
+
+footer {
+  color: #FFD9DA;
+  padding-top: 2%;
+}
+
+footer p {
+  margin: 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, h1, h2 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  font-family: "Hind", sans-serif;
+  font-weight: 600;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.main-content {
+  margin: 2%;
+}
+
+.container {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.first-p {
+  margin-top: 2%;
+}
+
+.aboutme-info {
+  border-radius: 5%;
+  box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+  padding-top: 5%;
+}
+
+.img-home {
+  width: 80%;
+  margin: 8%;
+  border-radius: 20%;
+  box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.comm-cont h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.titulo-subtitulo {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.comm-cont h2 {
+  text-transform: uppercase;
+}
+
+.comm-cont img {
+  max-width: 300px;
+  float: right;
+  border: solid rgb(243, 236, 236);
+}
+
+.pixel-chibis {
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+}
+
+.img-order {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img-order img {
+  max-width: 150px;
+  margin: 8px;
+}
+
+.tos-cont h4, h2 {
+  text-align: center;
+}
+
+.tos-list {
+  list-style: none;
+  box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+}
+
+.tos-cont h2 {
+  background-color: #fff;
+  border-style: dashed;
+  border-color: #FFD9DA;
+}
+
+/* CSS Del Boton */
+.custom-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+}
+
+.custom-btn {
+  width: 160px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-11 {
+  border: none;
+  background: rgb(251, 33, 117);
+  background: linear-gradient(0deg, rgb(251, 33, 117) 0%, rgb(234, 76, 137) 100%);
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn-11:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-11:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.btn-11:hover {
+  opacity: 0.7;
+}
+
+.btn-11:active {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3), -4px -4px 6px 0 rgba(116, 125, 136, 0.2), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+/* Fin CSS Del Boton */
+/*Style portfolio*/
+.port-img {
+  width: 80%;
+  margin: 8%;
+  box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+}
+
+.port-img:hover {
+  transform: scale(1.5, 1.5);
+  transition-duration: 0.5s;
+}
+
+/*Comm style*/
+.comm-cont h2 {
+  background-color: #fff;
+  border-style: dashed;
+  border-color: #FFD9DA;
+}
+
+.comm-cont h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.comm-cont img {
+  max-width: 350px;
+  max-height: 500px;
+  border-style: solid 2px;
+  border-color: #fff;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
+.comm-cont {
+  box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+}
+
+/*order section*/
+.order-form {
+  box-shadow: 0 14px 28px rgba(212, 135, 178, 0.553), 0 10px 10px;
+  margin: 5%;
+  padding: 2%;
+}
+
+.order-text {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

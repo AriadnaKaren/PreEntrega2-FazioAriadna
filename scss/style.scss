@@ -1,3 +1,8 @@
+@import 'components/header';
+@import 'components/footer';
+@import 'base/variables';
+@import 'base/lists';
+@import 'base/extends';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins&display=swap');
 
@@ -17,52 +22,6 @@ body{
     font-weight:600;
 }
 
-/*CSS HEADER */
-header, footer{
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(146, 124, 124, 0.4) 0%, rgba(0,0,0,0.40) 120%) #7b7b7b;
-    background-blend-mode: multiply,multiply;
-
-}
-
-.nav-text li a{
-    color: #FFD9DA;
-}
-
-
-.navbar-toggler{
-    background-color: #FFD9DA ;
-}
-
-.menu-list{
-    background-color: #ea638c;
-    display: flex;
-    width: 400px;
-    justify-content: center;
-    list-style: none;
-    margin: 0 20% 20%;
-    border-radius: 8px;
-    text-transform: uppercase;
-    border-radius: 100px;
-}
-.menu-list li {
-    float: left;
-    
-}
-.menu-list li a{
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    padding: 3px;
-}
-.img-logo{
-    width: 300px;
-}
-
-
-/*FIN CSS HEADER */
-
-
-/* H1 animacion */
 .typewriter h1 {
     overflow: hidden; 
     white-space: nowrap; 
@@ -72,12 +31,12 @@ header, footer{
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
     }
- @keyframes typing {
+    @keyframes typing {
     from { width: 0 }
     to { width: 100% }
     }
 
-/*FIN H1 animacion*/
+
 
 .main-content{
     margin: 2%;
@@ -286,27 +245,3 @@ button {
 .order-text{
     text-align: center;
 }
-
-/*Footer */
-footer{
-    color: #FFD9DA;
-    padding-top: 2%;
-}
-footer p{
-    margin: 0;
-}
-
-.socials {
-    display: flex;
-    justify-content: center;
-}
-.copyright{
-    text-align: center;
-    font-weight: bold;
-}
-
-footer img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
